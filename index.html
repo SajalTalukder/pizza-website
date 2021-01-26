@@ -30,12 +30,13 @@
         <img src="./food/logo.png" alt="logo" class="nav__logo-image" />
       </div>
       <ul class="nav__ul">
-        <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="/" class="nav__link">Blog</a></li>
-        <li class="nav__item"><a href="/" class="nav__link">Pages</a></li>
-        <li class="nav__item"><a href="/" class="nav__link">Menu</a></li>
-        <li class="nav__item"><a href="/" class="nav__link">Location</a></li>
-        <li class="nav__item"><a href="/" class="nav__link">contact</a></li>
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+        <li class="nav__item"><a href="#offers" class="nav__link">Offers</a></li>
+        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+        <li class="nav__item"><a href="#Hot" class="nav__link">Hot Offers</a></li>
+        <li class="nav__item"><a href="#client" class="nav__link">Reviews</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
       </ul>
       <div class="nav__other">
         <a href="/" class="nav__order">Order Now</a>
@@ -43,7 +44,7 @@
     </nav>
 
     <!-- showcase -->
-    <section class="section-1">
+    <section class="section-1"  id="home">
       <div class="showcase">
         <div class="row-1">
           <div class="col-2-of-1">
@@ -86,7 +87,7 @@
           since the
         </p>
       </div>
-      <div class="feature">
+      <div class="feature" id="features">
         <div class="row-2">
           <div class="col-4-of-1">
             <div class="featur-box">
@@ -148,7 +149,7 @@
       <div class="food-item">
         <div class="row-3">
           <div class="col-2-of-1">
-            <div class="food-item__text">
+            <div class="food-item__text" id="offers">
               <h2 class="heading-red u-mb-small">Pizza</h2>
               <h2 class="heading-standerd u-mb-mid">Crazy Pizza Offers</h2>
               <p class="para-1 u-mb-big">
@@ -178,7 +179,7 @@
           since the
         </p>
       </div>
-      <div class="menu">
+      <div class="menu" id="menu">
         <div class="row-4">
           <div class="col-4-of-1">
             <div class="menu__box">
@@ -266,7 +267,7 @@
     </section>
 
     <!-- section-5 -->
-    <section class="section-5">
+    <section class="section-5" id="Hot">
       <div class="food">
         <div class="row-3">
           <div class="col-2-of-1">
@@ -307,7 +308,7 @@
           since the
         </p>
       </div>
-      <div class="client">
+      <div class="client" id="client">
         <div class="row-5">
           <div class="col-3-of-1">
             <div class="client__box">
@@ -370,7 +371,7 @@
       </div>
     </section>
     <section class="section-7">
-      <div class="signup">
+      <div class="signup" id="contact">
         <div class="signup__form">
           <h1 class="heading-standerd u-mb-mid">Join Our Newsletter</h1>
           <p class="para-1 u-mb-big">
@@ -482,7 +483,15 @@
         <p class="para-1 u-text-center">Copyright &copy; 2021 Sajal Talukder</p>
       </div>
     </footer>
+
+      <div class="top-bottom">
+      <a href="#home" class="top-bottom__link">
+        <i class="fas fa-arrow-up topbottom"></i
+      ></a>
+    </div>
     <!-- javaScript -->
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
     <script src="./app.js"></script>
   </body>
 </html>

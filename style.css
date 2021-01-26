@@ -552,18 +552,36 @@ img {
   .section-2__heading {
     width: 50%;
     margin: 0 auto; }
+    @media only screen and (max-width: 56.25em) {
+      .section-2__heading {
+        width: 70%; } }
+    @media only screen and (max-width: 37.5em) {
+      .section-2__heading {
+        width: 90%; } }
 
 .section-4 {
   padding: 10rem 5rem; }
   .section-4__heading {
     width: 50%;
     margin: 0 auto; }
+    @media only screen and (max-width: 56.25em) {
+      .section-4__heading {
+        width: 70%; } }
+    @media only screen and (max-width: 37.5em) {
+      .section-4__heading {
+        width: 90%; } }
 
 .section-6 {
   padding: 10rem 5rem; }
   .section-6__heading {
     width: 50%;
     margin: 0 auto; }
+    @media only screen and (max-width: 56.25em) {
+      .section-6__heading {
+        width: 70%; } }
+    @media only screen and (max-width: 37.5em) {
+      .section-6__heading {
+        width: 90%; } }
 
 .section-3 {
   padding: 10rem 5rem; }
