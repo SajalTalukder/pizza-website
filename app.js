@@ -23,6 +23,31 @@ let scroll = new SmoothScroll('a[href*="#"]', {
   speed: 700,
 });
 
+// slider
+
+const sliderFunction = (className) => {
+  const slides = document.querySelectorAll(`.${className}`);
+  let currSlide = 0;
+  const maxSlide = slides.length - 1;
+  const goToSlide = (slide) => {
+    slides.forEach((s, i) => {
+      s.style.transform = `translateX(${100 * (i - slide)}%)`;
+    });
+  };
+  goToSlide(0);
+  const nextSlide = () => {
+    if (currSlide === maxSlide) {
+      currSlide = 0;
+    } else {
+      currSlide++;
+    }
+    goToSlide(currSlide);
+  };
+  setInterval(nextSlide, 3000);
+};
+sliderFunction("slide");
+sliderFunction("slide-1");
+sliderFunction("slide-2");
 const init = () => {
   navbar();
   topBottom();
